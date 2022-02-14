@@ -1,0 +1,38 @@
+body {
+    background-color: #FFFAFA;
+}
+table {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px #ccc;
+}
+th {
+    border: 1px solid #000000;
+    background-color: #FFC0CB;
+    padding: 8px;
+}
+td {
+    border: 1px solid #F8F8FF;
+    text-align: center;
+    padding: 10px;
+}
+.cel-1 {
+    border-left: 1px solid black;
+}
+.cel-2 {
+    border-right: 1px solid black;
+}
+.cel-3 {
+    border-bottom: 1px solid black;
+}
+tbody tr:nth-child(even) {
+    background-color: #FFE4E1;
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+}
